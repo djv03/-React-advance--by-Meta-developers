@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 
 function Form() {
 
-    const{name,setname}=useState("");
+    const[name,setname]=useState("");
+  
 
     const changeHoga=(e)=>{
         setname(e.target.value)
@@ -10,6 +11,7 @@ function Form() {
     const handleSubmit=(e)=>{
         e.preventDefault();
         console.log("form submitted");
+        
         document.getElementById("space").innerHTML="submitted sucessfully";
     }
   return (

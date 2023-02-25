@@ -5,7 +5,7 @@ import './App.css';
 // import Listing from '../Learnings/Module-1/Listing';
 
 import Form from '../Learnings/Module-1/Form';
-
+import Form2 from '../Learnings/Module-1/Form2';
 
 function App() {
 
@@ -14,6 +14,7 @@ function App() {
     <>
       <h1>welcome to Jitubhai Bhajiya</h1>
       <Form/>
+      <Form2/>
     </>
   )
 }
