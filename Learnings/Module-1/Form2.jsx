@@ -28,8 +28,8 @@ return (
                 <div className="field">
                     <label htmlFor="">score:{score}</label>
                     <input type="range" min="0" max="10"
-                        value={score}
-                        onChange={(e) => { setscore(e.target.value) }} />
+                            value={score}
+                            onChange={(e) => { setscore(e.target.value) }} />
                 </div>
                 <div className="field">
                     <label htmlFor="">Comment</label>
