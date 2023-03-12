@@ -1,5 +1,5 @@
 
-import { useTheme } from "../Learnings/Module-2/contextAPI";
+import { useTheme } from "../Learnings/Module-1/contextAPI";
 
 const Switch = () => {
  const { theme, toggleTheme } = useTheme();
