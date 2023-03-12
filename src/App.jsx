@@ -13,16 +13,23 @@ import Lab_1 from '../Learnings/Module-1/Lab_1';
 //import for learning contextAPI
 // import Switch from './Switch';
 
-import HooksIntro from '../Learnings/Module-2/hooksIntro';
+//import for revising useState hook
+// import HooksIntro from '../Learnings/Module-2/hooksIntro';
 
+//import for: handling complex data in useState hoom
+import ComplexuseStateexample from '../Learnings/Module-2/ComplexuseStateexample';
+
+//import for : making goals app in action
+import GoalsApp from '../Learnings/Module-2/GoalsApp';
 function App() {
 
 
   return (
     <>
-      <h1>welcome to Jitubhai Bhajiya</h1>
-      <HooksIntro/>
-
+      <h1 style={{color:"red"}}>welcome to Jitubhai Bhajiya</h1>
+      {/* <HooksIntro/> */}
+      <ComplexuseStateexample/>
+      <GoalsApp />
     </>
   )
 }

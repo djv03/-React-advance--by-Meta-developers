@@ -10,7 +10,7 @@ let menuItems=[
     {
         id:1,
         itemName:"bhajiya",
-        description:"fried in beson",
+        description:"fried in besan",
         price:'400rs/kg'
     },
     {
