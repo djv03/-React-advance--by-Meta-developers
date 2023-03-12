@@ -9,11 +9,14 @@ import './App.css';
 
 import Lab_1 from '../Learnings/Module-1/Lab_1';
 
+import Switch from './Switch';
+
 function App() {
 
 
   return (
     <>
+    <Switch/>
       <h1>welcome to Jitubhai Bhajiya</h1>
 
       <Lab_1/>
