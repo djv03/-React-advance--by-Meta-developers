@@ -23,7 +23,13 @@ import ComplexuseStateexample from '../Learnings/Module-2/ComplexuseStateexample
 import GoalsApp from '../Learnings/Module-2/GoalsApp';
 
 //import for seeing the solution of lab 1st of module 2
-// import Lab_2 from '../Learnings/Module-2/Lab_2';
+import Lab_2 from '../Learnings/week-2/Lab_2';
+
+// import for: see use of useEffect in action
+import Usereducer from '../Learnings/week-2/usereducer';
+
+// import for: see use of useRef in action
+import UseRef from '../Learnings/week-2/UseRef';
 function App() {
 return (
     <>
@@ -32,6 +38,8 @@ return (
       {/* <ComplexuseStateexample/> */}
       {/* <GoalsApp /> */}
       {/* <Lab_2/> */}
+      {/* <Usereducer/> */}
+      <UseRef/>
     </>
   )
 }
