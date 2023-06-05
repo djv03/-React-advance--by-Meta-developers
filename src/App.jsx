@@ -21,15 +21,17 @@ import ComplexuseStateexample from '../Learnings/Module-2/ComplexuseStateexample
 
 //import for : making goals app in action
 import GoalsApp from '../Learnings/Module-2/GoalsApp';
+
+//import for seeing the solution of lab 1st of module 2
+// import Lab_2 from '../Learnings/Module-2/Lab_2';
 function App() {
-
-
-  return (
+return (
     <>
       <h1 style={{color:"red"}}>welcome to Jitubhai Bhajiya</h1>
       {/* <HooksIntro/> */}
-      <ComplexuseStateexample/>
-      <GoalsApp />
+      {/* <ComplexuseStateexample/> */}
+      {/* <GoalsApp /> */}
+      {/* <Lab_2/> */}
     </>
   )
 }
