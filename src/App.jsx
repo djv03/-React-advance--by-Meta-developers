@@ -1,5 +1,6 @@
 
 import './App.css';
+import { useState } from 'react';
 
 // import for revise listing thorugh map()
 // import Listing from '../Learnings/Module-1/Listing';
@@ -30,7 +31,17 @@ import Usereducer from '../Learnings/week-2/usereducer';
 
 // import for: see use of useRef in action
 import UseRef from '../Learnings/week-2/UseRef';
+
+// import for: see use of dialogue
+import Composition from '../Learnings/week-3/Composition';
+
+// import to: ues of React.cloneElement
+// import { RadioGroup,RadioOption } from '../Learnings/week-3/ComponetLab';
+
+import SpreadOp from '../Learnings/week-3/spreadOp';
 function App() {
+  const [selected, setSelected] = useState("");
+  
 return (
     <>
       <h1 style={{color:"red"}}>welcome to Jitubhai Bhajiya</h1>
@@ -39,7 +50,18 @@ return (
       {/* <GoalsApp /> */}
       {/* <Lab_2/> */}
       {/* <Usereducer/> */}
-      <UseRef/>
+      {/* <UseRef/> */}
+      {/* <Composition/> */}
+      {/* <h2>How did you hear about us?</h2>
+      <RadioGroup onChange={setSelected} selected={selected}>
+        <RadioOption value="social_media">Social Media</RadioOption>
+        <RadioOption value="friends">Friends</RadioOption>
+        <RadioOption value="advertising">Advertising</RadioOption>
+        <RadioOption value="other">Other</RadioOption>
+      </RadioGroup>
+      <button disabled={!selected}>Submit</button> */}
+      <SpreadOp/>
+
     </>
   )
 }
