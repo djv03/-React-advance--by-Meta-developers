@@ -9,7 +9,7 @@ import { useState } from 'react';
 // import Form from '../Learnings/Module-1/Form';
 // import Form2 from '../Learnings/Module-1/Form2';
 
-import Lab_1 from '../Learnings/Module-1/Lab_1';
+// import Lab_1 from '../Learnings/Module-1/Lab_1';
 
 //import for learning contextAPI
 // import Switch from './Switch';
@@ -18,29 +18,32 @@ import Lab_1 from '../Learnings/Module-1/Lab_1';
 // import HooksIntro from '../Learnings/Module-2/hooksIntro';
 
 //import for: handling complex data in useState hoom
-import ComplexuseStateexample from '../Learnings/Module-2/ComplexuseStateexample';
+// import ComplexuseStateexample from '../Learnings/Module-2/ComplexuseStateexample';
 
 //import for : making goals app in action
-import GoalsApp from '../Learnings/Module-2/GoalsApp';
+// import GoalsApp from '../Learnings/Module-2/GoalsApp';
 
 //import for seeing the solution of lab 1st of module 2
-import Lab_2 from '../Learnings/week-2/Lab_2';
+// import Lab_2 from '../Learnings/week-2/Lab_2';
 
 // import for: see use of useEffect in action
-import Usereducer from '../Learnings/week-2/usereducer';
+// import Usereducer from '../Learnings/week-2/usereducer';
 
 // import for: see use of useRef in action
-import UseRef from '../Learnings/week-2/UseRef';
+// import UseRef from '../Learnings/week-2/UseRef';
+
+//import to see the useEffect in action
+import UseEffect from '../Learnings/week-2/UseEffect';
 
 // import for: see use of dialogue
-import Composition from '../Learnings/week-3/Composition';
+// import Composition from '../Learnings/week-3/Composition';
 
 // import to: ues of React.cloneElement
 // import { RadioGroup,RadioOption } from '../Learnings/week-3/ComponetLab';
 
+
 import SpreadOp from '../Learnings/week-3/spreadOp';
 function App() {
-  const [selected, setSelected] = useState("");
   
 return (
     <>
@@ -60,7 +63,8 @@ return (
         <RadioOption value="other">Other</RadioOption>
       </RadioGroup>
       <button disabled={!selected}>Submit</button> */}
-      <SpreadOp/>
+      {/* <SpreadOp/> */}
+      <UseEffect/>
 
     </>
   )
